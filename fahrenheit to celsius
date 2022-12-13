@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int fahrenheit,celsius;
+  cout<<"fahrenheit:";
+  cin>>fahrenheit;
+  celsius=fahrenheit*5/9-32;
+  cout<<"celsius is:"<<celsius;
+}  
