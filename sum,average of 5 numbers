@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   int a,b,c,d,e,sum,average;
+   cout<<"enter the values of a,b,c,d,e:";
+   cin>>a,b,c,d,e;
+   sum=a+b+c+d+e;
+   average=(sum)/5;
+   cout<<"sum of the five numbers is"<<sum;<<"\n";
+   cout<<"average of the five numbers is"<<average;
+ } 
+   
